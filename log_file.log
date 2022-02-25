@@ -1,0 +1,1714 @@
+|ERROR|2022-02-18 17:16:03,072|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2022-02-18 17:16:03,072|URL: https://api-demo.fxcm.com:443/trading/get_model?models=Offer
+|ERROR|2022-02-18 17:16:03,072|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer U4y37K56ynts5lOrA72Ea37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-02-18 17:16:03,073|Params: {'models': ['Offer']}
+|ERROR|2022-02-18 17:16:03,073|Bearer token: Bearer U4y37K56ynts5lOrA72Ea37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-18 17:16:03,073|Connection status: established
+|ERROR|2022-02-18 17:16:03,073|Socket session id: U4y37K56ynts5lOrA72E
+|ERROR|2022-02-18 17:16:03,073|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
+|ERROR|2022-02-18 17:17:34,533|Socket returns unknown error.
+|ERROR|2022-02-18 19:48:41,649|FXCM reject req trading/subscribe with status 520 and msg <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<meta http-equiv="refresh" content="0">
+
+<title>api-demo.fxcm.com | 520: Web server is returning an unknown error</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" type="text/css" media="screen,projection" />
+
+
+<script type="text/javascript">
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:520,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+</head>
+<body>
+<div id="cf-wrapper">
+
+    
+
+    <div id="cf-error-details" class="p-0">
+        <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">
+            <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">
+              
+              <span class="cf-error-type">Error</span>
+              <span class="cf-error-code">520</span>
+            </h1>
+            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 6df9c63249be2a72 &bull;</span>
+            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">2022-02-18 19:48:41 UTC</span>
+            <h2 class="text-gray-600 leading-1.3 text-3xl font-light">Web server is returning an unknown error</h2>
+        </header>
+        
+        <div class="my-8 bg-gradient-gray">
+            <div class="w-240 lg:w-full mx-auto">
+                <div class="clearfix md:px-8">
+                  
+<div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+  </div>
+  <span class="md:block w-full truncate">You</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">Browser</h3>
+  <span class="leading-1.3 text-2xl text-green-success">Working</span>
+</div>
+
+<div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+  </div>
+  <span class="md:block w-full truncate">Chicago</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">Cloudflare</h3>
+  <span class="leading-1.3 text-2xl text-green-success">Working</span>
+</div>
+
+<div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+  </div>
+  <span class="md:block w-full truncate">api-demo.fxcm.com</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">Host</h3>
+  <span class="leading-1.3 text-2xl text-red-error">Error</span>
+</div>
+
+                </div>
+              
+            </div>
+        </div>
+
+        <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+            <div class="clearfix">
+                <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">
+                    <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>
+                    <p>There is an unknown connection issue between Cloudflare and the origin web server. As a result, the web page can not be displayed.</p>
+                </div>
+              
+                <div class="w-1/2 md:w-full float-left leading-relaxed">
+                    <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>
+                          <h3 class="text-15 font-semibold mb-2">If you are a visitor of this website:</h3>
+      <p class="mb-6">Please try again in a few minutes.</p>
+
+      <h3 class="text-15 font-semibold mb-2">If you are the owner of this website:</h3>
+      <p><span>There is an issue between Cloudflare's cache and your origin web server. Cloudflare monitors for these errors and automatically investigates the cause. To help support the investigation, you can pull the corresponding error log from your web server and submit it our support team.  Please include the Ray ID (which is at the bottom of this error page).</span> <a rel="noopener noreferrer" href="https://support.cloudflare.com/hc/en-us/articles/200171936-Error-520">Additional troubleshooting resources</a>.</p>
+                </div>
+            </div>
+              
+        </div>
+
+        
+        <div class="feedback-hidden py-8 text-center" id="error-feedback">
+           <div id="error-feedback-survey">
+              Was this page helpful?
+              <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+              <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+           </div>
+           <div class="feedback-success feedback-hidden" id="error-feedback-success">
+              Thank you for your feedback!
+           </div>
+        </div>
+        
+
+        <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6df9c63249be2a72</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.121.125.164</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+</div>
+</body>
+</html>
+
+.
+|ERROR|2022-02-21 13:13:41,702|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-21 13:13:41,703|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-21 13:13:41,703|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Kgr76lwn-sj0YfxDAsk7a37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-21 13:13:41,704|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-21 13:13:41,704|Bearer token: Bearer Kgr76lwn-sj0YfxDAsk7a37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-21 13:13:41,704|Connection status: established
+|ERROR|2022-02-21 13:13:41,704|Socket session id: Kgr76lwn-sj0YfxDAsk7
+|ERROR|2022-02-21 13:13:41,704|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-21 13:13:41,986|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-21 13:13:41,986|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-21 13:13:41,986|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Kgr76lwn-sj0YfxDAsk7a37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-21 13:13:41,986|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-21 13:13:41,986|Bearer token: Bearer Kgr76lwn-sj0YfxDAsk7a37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-21 13:13:41,986|Connection status: established
+|ERROR|2022-02-21 13:13:41,987|Socket session id: Kgr76lwn-sj0YfxDAsk7
+|ERROR|2022-02-21 13:13:41,987|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-21 13:14:18,273|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-21 13:14:18,274|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-21 13:14:18,274|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LcST8ychrm8MdAKKAsmEa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-21 13:14:18,274|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-21 13:14:18,274|Bearer token: Bearer LcST8ychrm8MdAKKAsmEa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-21 13:14:18,274|Connection status: established
+|ERROR|2022-02-21 13:14:18,274|Socket session id: LcST8ychrm8MdAKKAsmE
+|ERROR|2022-02-21 13:14:18,274|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-21 13:14:18,438|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-21 13:14:18,438|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-21 13:14:18,438|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LcST8ychrm8MdAKKAsmEa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-21 13:14:18,438|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-21 13:14:18,438|Bearer token: Bearer LcST8ychrm8MdAKKAsmEa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-21 13:14:18,438|Connection status: established
+|ERROR|2022-02-21 13:14:18,438|Socket session id: LcST8ychrm8MdAKKAsmE
+|ERROR|2022-02-21 13:14:18,438|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-21 13:14:30,331|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-21 13:14:30,331|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-21 13:14:30,331|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F29ZohSPrDzQM4kHAsnJa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-21 13:14:30,331|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-21 13:14:30,331|Bearer token: Bearer F29ZohSPrDzQM4kHAsnJa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-21 13:14:30,331|Connection status: established
+|ERROR|2022-02-21 13:14:30,331|Socket session id: F29ZohSPrDzQM4kHAsnJ
+|ERROR|2022-02-21 13:14:30,331|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-21 13:14:30,490|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-21 13:14:30,490|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-21 13:14:30,491|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F29ZohSPrDzQM4kHAsnJa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-21 13:14:30,491|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-21 13:14:30,491|Bearer token: Bearer F29ZohSPrDzQM4kHAsnJa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-21 13:14:30,491|Connection status: established
+|ERROR|2022-02-21 13:14:30,491|Socket session id: F29ZohSPrDzQM4kHAsnJ
+|ERROR|2022-02-21 13:14:30,491|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-21 13:18:53,874|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-21 13:18:53,875|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-21 13:18:53,875|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer UyY963fxTDzhwSpEAsyTa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-21 13:18:53,875|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-21 13:18:53,875|Bearer token: Bearer UyY963fxTDzhwSpEAsyTa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-21 13:18:53,875|Connection status: established
+|ERROR|2022-02-21 13:18:53,876|Socket session id: UyY963fxTDzhwSpEAsyT
+|ERROR|2022-02-21 13:18:53,876|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-21 13:18:54,220|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-21 13:18:54,220|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-21 13:18:54,220|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer UyY963fxTDzhwSpEAsyTa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-21 13:18:54,220|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-21 13:18:54,220|Bearer token: Bearer UyY963fxTDzhwSpEAsyTa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-21 13:18:54,221|Connection status: established
+|ERROR|2022-02-21 13:18:54,221|Socket session id: UyY963fxTDzhwSpEAsyT
+|ERROR|2022-02-21 13:18:54,221|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-24 16:07:22,271|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-24 16:07:22,271|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-24 16:07:22,272|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer M3fTEK7UjhjsvbbvBGzha37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-24 16:07:22,272|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-24 16:07:22,272|Bearer token: Bearer M3fTEK7UjhjsvbbvBGzha37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-24 16:07:22,272|Connection status: established
+|ERROR|2022-02-24 16:07:22,272|Socket session id: M3fTEK7UjhjsvbbvBGzh
+|ERROR|2022-02-24 16:07:22,272|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-24 16:07:22,730|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-24 16:07:22,731|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-24 16:07:22,731|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer M3fTEK7UjhjsvbbvBGzha37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-24 16:07:22,731|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-24 16:07:22,731|Bearer token: Bearer M3fTEK7UjhjsvbbvBGzha37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-24 16:07:22,731|Connection status: established
+|ERROR|2022-02-24 16:07:22,731|Socket session id: M3fTEK7UjhjsvbbvBGzh
+|ERROR|2022-02-24 16:07:22,732|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 10:12:36,322|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 10:12:36,323|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 10:12:36,323|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer VJwMvGtsj3fm3Ao_CAcFa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-25 10:12:36,323|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-25 10:12:36,323|Bearer token: Bearer VJwMvGtsj3fm3Ao_CAcFa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 10:12:36,323|Connection status: established
+|ERROR|2022-02-25 10:12:36,323|Socket session id: VJwMvGtsj3fm3Ao_CAcF
+|ERROR|2022-02-25 10:12:36,324|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 10:12:36,450|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 10:12:36,450|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 10:12:36,450|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer VJwMvGtsj3fm3Ao_CAcFa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-25 10:12:36,450|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-25 10:12:36,450|Bearer token: Bearer VJwMvGtsj3fm3Ao_CAcFa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 10:12:36,450|Connection status: established
+|ERROR|2022-02-25 10:12:36,450|Socket session id: VJwMvGtsj3fm3Ao_CAcF
+|ERROR|2022-02-25 10:12:36,451|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 10:12:38,762|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:38,762|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:38,762|Circular reference detected
+|ERROR|2022-02-25 10:12:39,204|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:39,205|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:39,205|Circular reference detected
+|ERROR|2022-02-25 10:12:39,700|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:39,700|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:39,700|Circular reference detected
+|ERROR|2022-02-25 10:12:40,145|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:40,145|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:40,145|Circular reference detected
+|ERROR|2022-02-25 10:12:40,648|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:40,648|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:40,648|Circular reference detected
+|ERROR|2022-02-25 10:12:41,780|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:41,780|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:41,780|Circular reference detected
+|ERROR|2022-02-25 10:12:42,764|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:42,764|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:42,764|Circular reference detected
+|ERROR|2022-02-25 10:12:43,156|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:43,156|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:43,156|Circular reference detected
+|ERROR|2022-02-25 10:12:43,733|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:43,733|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:43,733|Circular reference detected
+|ERROR|2022-02-25 10:12:44,655|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:44,655|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:44,656|Circular reference detected
+|ERROR|2022-02-25 10:12:45,786|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:45,786|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:45,786|Circular reference detected
+|ERROR|2022-02-25 10:12:46,192|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:46,192|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:46,192|Circular reference detected
+|ERROR|2022-02-25 10:12:46,671|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:46,671|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:46,672|Circular reference detected
+|ERROR|2022-02-25 10:12:47,158|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:47,159|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:47,159|Circular reference detected
+|ERROR|2022-02-25 10:12:47,695|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:47,695|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:47,695|Circular reference detected
+|ERROR|2022-02-25 10:12:48,158|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:48,159|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:48,159|Circular reference detected
+|ERROR|2022-02-25 10:12:48,653|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:48,653|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:48,653|Circular reference detected
+|ERROR|2022-02-25 10:12:49,148|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:49,149|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:49,149|Circular reference detected
+|ERROR|2022-02-25 10:12:49,656|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:49,656|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:49,656|Circular reference detected
+|ERROR|2022-02-25 10:12:50,153|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:50,153|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:50,153|Circular reference detected
+|ERROR|2022-02-25 10:12:51,161|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:51,161|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:51,161|Circular reference detected
+|ERROR|2022-02-25 10:12:52,649|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:52,649|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:52,649|Circular reference detected
+|ERROR|2022-02-25 10:12:53,164|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:53,164|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:53,165|Circular reference detected
+|ERROR|2022-02-25 10:12:54,809|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:54,809|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:54,809|Circular reference detected
+|ERROR|2022-02-25 10:12:55,297|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:55,298|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:55,298|Circular reference detected
+|ERROR|2022-02-25 10:12:55,649|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:55,649|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:55,649|Circular reference detected
+|ERROR|2022-02-25 10:12:57,155|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:57,155|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:57,156|Circular reference detected
+|ERROR|2022-02-25 10:12:57,705|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:57,705|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:57,705|Circular reference detected
+|ERROR|2022-02-25 10:12:58,305|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:58,305|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:58,305|Circular reference detected
+|ERROR|2022-02-25 10:12:58,672|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:58,675|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:58,676|Circular reference detected
+|ERROR|2022-02-25 10:12:59,139|Call of print_data raised an error:
+|ERROR|2022-02-25 10:12:59,139|<class 'ValueError'>
+|ERROR|2022-02-25 10:12:59,139|Circular reference detected
+|ERROR|2022-02-25 10:13:01,811|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:01,811|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:01,811|Circular reference detected
+|ERROR|2022-02-25 10:13:02,709|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:02,710|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:02,710|Circular reference detected
+|ERROR|2022-02-25 10:13:03,149|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:03,149|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:03,150|Circular reference detected
+|ERROR|2022-02-25 10:13:03,897|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:03,897|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:03,897|Circular reference detected
+|ERROR|2022-02-25 10:13:04,156|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:04,157|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:04,157|Circular reference detected
+|ERROR|2022-02-25 10:13:05,147|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:05,147|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:05,147|Circular reference detected
+|ERROR|2022-02-25 10:13:08,155|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:08,155|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:08,155|Circular reference detected
+|ERROR|2022-02-25 10:13:09,750|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:09,750|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:09,750|Circular reference detected
+|ERROR|2022-02-25 10:13:10,383|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:10,384|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:10,384|Circular reference detected
+|ERROR|2022-02-25 10:13:13,160|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:13,161|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:13,162|Circular reference detected
+|ERROR|2022-02-25 10:13:13,651|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:13,651|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:13,651|Circular reference detected
+|ERROR|2022-02-25 10:13:14,648|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:14,648|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:14,649|Circular reference detected
+|ERROR|2022-02-25 10:13:17,159|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:17,159|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:17,159|Circular reference detected
+|ERROR|2022-02-25 10:13:17,654|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:17,654|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:17,655|Circular reference detected
+|ERROR|2022-02-25 10:13:18,388|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:18,388|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:18,388|Circular reference detected
+|ERROR|2022-02-25 10:13:19,296|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:19,296|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:19,297|Circular reference detected
+|ERROR|2022-02-25 10:13:20,644|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:20,645|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:20,645|Circular reference detected
+|ERROR|2022-02-25 10:13:21,162|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:21,162|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:21,163|Circular reference detected
+|ERROR|2022-02-25 10:13:21,644|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:21,645|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:21,645|Circular reference detected
+|ERROR|2022-02-25 10:13:22,334|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:22,334|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:22,334|Circular reference detected
+|ERROR|2022-02-25 10:13:22,659|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:22,659|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:22,659|Circular reference detected
+|ERROR|2022-02-25 10:13:23,151|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:23,151|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:23,151|Circular reference detected
+|ERROR|2022-02-25 10:13:23,652|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:23,652|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:23,653|Circular reference detected
+|ERROR|2022-02-25 10:13:24,134|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:24,135|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:24,135|Circular reference detected
+|ERROR|2022-02-25 10:13:24,823|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:24,823|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:24,823|Circular reference detected
+|ERROR|2022-02-25 10:13:25,152|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:25,152|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:25,152|Circular reference detected
+|ERROR|2022-02-25 10:13:25,672|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:25,672|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:25,672|Circular reference detected
+|ERROR|2022-02-25 10:13:27,278|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:27,279|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:27,279|Circular reference detected
+|ERROR|2022-02-25 10:13:27,650|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:27,651|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:27,651|Circular reference detected
+|ERROR|2022-02-25 10:13:28,186|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:28,186|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:28,190|Circular reference detected
+|ERROR|2022-02-25 10:13:29,145|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:29,145|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:29,146|Circular reference detected
+|ERROR|2022-02-25 10:13:29,650|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:29,650|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:29,650|Circular reference detected
+|ERROR|2022-02-25 10:13:30,182|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:30,182|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:30,182|Circular reference detected
+|ERROR|2022-02-25 10:13:30,654|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:30,654|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:30,654|Circular reference detected
+|ERROR|2022-02-25 10:13:31,221|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:31,221|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:31,222|Circular reference detected
+|ERROR|2022-02-25 10:13:31,652|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:31,652|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:31,652|Circular reference detected
+|ERROR|2022-02-25 10:13:32,158|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:32,159|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:32,159|Circular reference detected
+|ERROR|2022-02-25 10:13:32,658|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:32,658|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:32,658|Circular reference detected
+|ERROR|2022-02-25 10:13:33,183|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:33,183|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:33,183|Circular reference detected
+|ERROR|2022-02-25 10:13:34,147|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:34,147|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:34,147|Circular reference detected
+|ERROR|2022-02-25 10:13:35,155|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:35,155|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:35,155|Circular reference detected
+|ERROR|2022-02-25 10:13:35,656|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:35,656|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:35,656|Circular reference detected
+|ERROR|2022-02-25 10:13:36,186|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:36,187|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:36,187|Circular reference detected
+|ERROR|2022-02-25 10:13:36,648|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:36,649|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:36,649|Circular reference detected
+|ERROR|2022-02-25 10:13:37,150|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:37,150|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:37,150|Circular reference detected
+|ERROR|2022-02-25 10:13:39,655|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:39,655|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:39,656|Circular reference detected
+|ERROR|2022-02-25 10:13:40,155|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:40,155|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:40,155|Circular reference detected
+|ERROR|2022-02-25 10:13:40,642|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:40,642|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:40,642|Circular reference detected
+|ERROR|2022-02-25 10:13:41,261|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:41,261|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:41,261|Circular reference detected
+|ERROR|2022-02-25 10:13:41,674|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:41,674|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:41,674|Circular reference detected
+|ERROR|2022-02-25 10:13:42,196|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:42,196|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:42,196|Circular reference detected
+|ERROR|2022-02-25 10:13:42,655|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:42,655|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:42,655|Circular reference detected
+|ERROR|2022-02-25 10:13:43,161|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:43,161|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:43,161|Circular reference detected
+|ERROR|2022-02-25 10:13:44,173|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:44,173|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:44,173|Circular reference detected
+|ERROR|2022-02-25 10:13:44,650|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:44,650|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:44,650|Circular reference detected
+|ERROR|2022-02-25 10:13:45,154|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:45,154|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:45,154|Circular reference detected
+|ERROR|2022-02-25 10:13:45,662|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:45,662|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:45,662|Circular reference detected
+|ERROR|2022-02-25 10:13:46,860|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:46,860|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:46,860|Circular reference detected
+|ERROR|2022-02-25 10:13:47,218|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:47,218|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:47,218|Circular reference detected
+|ERROR|2022-02-25 10:13:47,795|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:47,795|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:47,795|Circular reference detected
+|ERROR|2022-02-25 10:13:48,146|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:48,147|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:48,147|Circular reference detected
+|ERROR|2022-02-25 10:13:48,674|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:48,676|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:48,677|Circular reference detected
+|ERROR|2022-02-25 10:13:49,660|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:49,661|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:49,661|Circular reference detected
+|ERROR|2022-02-25 10:13:50,656|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:50,656|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:50,656|Circular reference detected
+|ERROR|2022-02-25 10:13:51,203|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:51,203|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:51,204|Circular reference detected
+|ERROR|2022-02-25 10:13:52,180|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:52,180|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:52,180|Circular reference detected
+|ERROR|2022-02-25 10:13:52,646|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:52,646|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:52,647|Circular reference detected
+|ERROR|2022-02-25 10:13:53,155|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:53,155|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:53,155|Circular reference detected
+|ERROR|2022-02-25 10:13:53,654|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:53,654|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:53,654|Circular reference detected
+|ERROR|2022-02-25 10:13:54,168|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:54,168|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:54,169|Circular reference detected
+|ERROR|2022-02-25 10:13:54,788|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:54,788|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:54,788|Circular reference detected
+|ERROR|2022-02-25 10:13:55,172|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:55,172|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:55,172|Circular reference detected
+|ERROR|2022-02-25 10:13:57,690|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:57,690|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:57,690|Circular reference detected
+|ERROR|2022-02-25 10:13:58,153|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:58,154|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:58,154|Circular reference detected
+|ERROR|2022-02-25 10:13:58,646|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:58,646|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:58,647|Circular reference detected
+|ERROR|2022-02-25 10:13:59,207|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:59,207|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:59,207|Circular reference detected
+|ERROR|2022-02-25 10:13:59,733|Call of print_data raised an error:
+|ERROR|2022-02-25 10:13:59,734|<class 'ValueError'>
+|ERROR|2022-02-25 10:13:59,734|Circular reference detected
+|ERROR|2022-02-25 10:14:00,651|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:00,651|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:00,651|Circular reference detected
+|ERROR|2022-02-25 10:14:01,712|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:01,712|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:01,712|Circular reference detected
+|ERROR|2022-02-25 10:14:02,657|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:02,658|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:02,658|Circular reference detected
+|ERROR|2022-02-25 10:14:03,740|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:03,740|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:03,740|Circular reference detected
+|ERROR|2022-02-25 10:14:04,380|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:04,380|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:04,381|Circular reference detected
+|ERROR|2022-02-25 10:14:05,172|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:05,172|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:05,172|Circular reference detected
+|ERROR|2022-02-25 10:14:06,162|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:06,163|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:06,164|Circular reference detected
+|ERROR|2022-02-25 10:14:06,652|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:06,652|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:06,652|Circular reference detected
+|ERROR|2022-02-25 10:14:07,208|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:07,211|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:07,212|Circular reference detected
+|ERROR|2022-02-25 10:14:07,655|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:07,656|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:07,656|Circular reference detected
+|ERROR|2022-02-25 10:14:08,161|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:08,161|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:08,161|Circular reference detected
+|ERROR|2022-02-25 10:14:09,149|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:09,149|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:09,150|Circular reference detected
+|ERROR|2022-02-25 10:14:09,695|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:09,695|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:09,695|Circular reference detected
+|ERROR|2022-02-25 10:14:10,209|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:10,209|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:10,210|Circular reference detected
+|ERROR|2022-02-25 10:14:11,650|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:11,651|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:11,651|Circular reference detected
+|ERROR|2022-02-25 10:14:12,152|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:12,152|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:12,152|Circular reference detected
+|ERROR|2022-02-25 10:14:13,168|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:13,169|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:13,169|Circular reference detected
+|ERROR|2022-02-25 10:14:13,657|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:13,658|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:13,658|Circular reference detected
+|ERROR|2022-02-25 10:14:14,174|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:14,174|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:14,174|Circular reference detected
+|ERROR|2022-02-25 10:14:15,147|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:15,147|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:15,147|Circular reference detected
+|ERROR|2022-02-25 10:14:16,196|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:16,196|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:16,197|Circular reference detected
+|ERROR|2022-02-25 10:14:16,677|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:16,678|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:16,678|Circular reference detected
+|ERROR|2022-02-25 10:14:17,288|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:17,288|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:17,288|Circular reference detected
+|ERROR|2022-02-25 10:14:17,700|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:17,701|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:17,701|Circular reference detected
+|ERROR|2022-02-25 10:14:18,201|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:18,201|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:18,201|Circular reference detected
+|ERROR|2022-02-25 10:14:18,652|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:18,653|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:18,653|Circular reference detected
+|ERROR|2022-02-25 10:14:19,366|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:19,366|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:19,366|Circular reference detected
+|ERROR|2022-02-25 10:14:19,715|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:19,716|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:19,716|Circular reference detected
+|ERROR|2022-02-25 10:14:20,161|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:20,162|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:20,162|Circular reference detected
+|ERROR|2022-02-25 10:14:20,713|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:20,713|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:20,713|Circular reference detected
+|ERROR|2022-02-25 10:14:21,203|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:21,203|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:21,203|Circular reference detected
+|ERROR|2022-02-25 10:14:21,786|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:21,786|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:21,786|Circular reference detected
+|ERROR|2022-02-25 10:14:22,148|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:22,148|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:22,149|Circular reference detected
+|ERROR|2022-02-25 10:14:23,875|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:23,875|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:23,875|Circular reference detected
+|ERROR|2022-02-25 10:14:24,210|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:24,211|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:24,211|Circular reference detected
+|ERROR|2022-02-25 10:14:25,206|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:25,207|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:25,207|Circular reference detected
+|ERROR|2022-02-25 10:14:25,660|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:25,660|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:25,660|Circular reference detected
+|ERROR|2022-02-25 10:14:26,155|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:26,155|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:26,155|Circular reference detected
+|ERROR|2022-02-25 10:14:26,643|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:26,644|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:26,644|Circular reference detected
+|ERROR|2022-02-25 10:14:28,197|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:28,198|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:28,198|Circular reference detected
+|ERROR|2022-02-25 10:14:29,652|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:29,653|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:29,654|Circular reference detected
+|ERROR|2022-02-25 10:14:31,169|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:31,169|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:31,169|Circular reference detected
+|ERROR|2022-02-25 10:14:32,201|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:32,201|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:32,201|Circular reference detected
+|ERROR|2022-02-25 10:14:33,154|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:33,154|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:33,155|Circular reference detected
+|ERROR|2022-02-25 10:14:33,643|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:33,643|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:33,643|Circular reference detected
+|ERROR|2022-02-25 10:14:34,200|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:34,200|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:34,201|Circular reference detected
+|ERROR|2022-02-25 10:14:34,825|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:34,825|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:34,825|Circular reference detected
+|ERROR|2022-02-25 10:14:35,338|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:35,338|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:35,338|Circular reference detected
+|ERROR|2022-02-25 10:14:35,645|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:35,646|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:35,646|Circular reference detected
+|ERROR|2022-02-25 10:14:36,713|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:36,714|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:36,714|Circular reference detected
+|ERROR|2022-02-25 10:14:37,160|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:37,160|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:37,160|Circular reference detected
+|ERROR|2022-02-25 10:14:37,644|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:37,645|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:37,645|Circular reference detected
+|ERROR|2022-02-25 10:14:38,152|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:38,152|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:38,152|Circular reference detected
+|ERROR|2022-02-25 10:14:39,854|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:39,855|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:39,855|Circular reference detected
+|ERROR|2022-02-25 10:14:41,183|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:41,183|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:41,184|Circular reference detected
+|ERROR|2022-02-25 10:14:41,810|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:41,810|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:41,810|Circular reference detected
+|ERROR|2022-02-25 10:14:42,411|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:42,411|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:42,411|Circular reference detected
+|ERROR|2022-02-25 10:14:42,648|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:42,648|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:42,648|Circular reference detected
+|ERROR|2022-02-25 10:14:43,143|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:43,143|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:43,144|Circular reference detected
+|ERROR|2022-02-25 10:14:44,677|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:44,677|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:44,678|Circular reference detected
+|ERROR|2022-02-25 10:14:45,155|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:45,155|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:45,155|Circular reference detected
+|ERROR|2022-02-25 10:14:46,196|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:46,196|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:46,196|Circular reference detected
+|ERROR|2022-02-25 10:14:46,813|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:46,814|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:46,814|Circular reference detected
+|ERROR|2022-02-25 10:14:47,290|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:47,291|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:47,292|Circular reference detected
+|ERROR|2022-02-25 10:14:47,697|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:47,700|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:47,701|Circular reference detected
+|ERROR|2022-02-25 10:14:49,192|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:49,192|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:49,193|Circular reference detected
+|ERROR|2022-02-25 10:14:50,173|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:50,173|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:50,174|Circular reference detected
+|ERROR|2022-02-25 10:14:50,670|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:50,670|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:50,670|Circular reference detected
+|ERROR|2022-02-25 10:14:51,156|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:51,156|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:51,156|Circular reference detected
+|ERROR|2022-02-25 10:14:51,818|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:51,818|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:51,819|Circular reference detected
+|ERROR|2022-02-25 10:14:52,224|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:52,224|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:52,224|Circular reference detected
+|ERROR|2022-02-25 10:14:53,370|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:53,370|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:53,370|Circular reference detected
+|ERROR|2022-02-25 10:14:54,187|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:54,187|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:54,187|Circular reference detected
+|ERROR|2022-02-25 10:14:55,488|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:55,488|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:55,488|Circular reference detected
+|ERROR|2022-02-25 10:14:55,667|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:55,667|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:55,667|Circular reference detected
+|ERROR|2022-02-25 10:14:56,679|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:56,679|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:56,679|Circular reference detected
+|ERROR|2022-02-25 10:14:57,188|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:57,191|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:57,192|Circular reference detected
+|ERROR|2022-02-25 10:14:58,734|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:58,734|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:58,734|Circular reference detected
+|ERROR|2022-02-25 10:14:59,174|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:59,174|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:59,174|Circular reference detected
+|ERROR|2022-02-25 10:14:59,692|Call of print_data raised an error:
+|ERROR|2022-02-25 10:14:59,693|<class 'ValueError'>
+|ERROR|2022-02-25 10:14:59,693|Circular reference detected
+|ERROR|2022-02-25 10:15:00,653|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:00,654|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:00,654|Circular reference detected
+|ERROR|2022-02-25 10:15:01,257|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:01,257|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:01,257|Circular reference detected
+|ERROR|2022-02-25 10:15:01,845|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:01,845|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:01,845|Circular reference detected
+|ERROR|2022-02-25 10:15:02,216|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:02,216|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:02,216|Circular reference detected
+|ERROR|2022-02-25 10:15:02,645|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:02,645|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:02,646|Circular reference detected
+|ERROR|2022-02-25 10:15:03,275|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:03,275|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:03,275|Circular reference detected
+|ERROR|2022-02-25 10:15:03,668|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:03,668|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:03,669|Circular reference detected
+|ERROR|2022-02-25 10:15:04,189|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:04,189|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:04,190|Circular reference detected
+|ERROR|2022-02-25 10:15:04,723|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:04,723|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:04,723|Circular reference detected
+|ERROR|2022-02-25 10:15:05,724|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:05,724|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:05,724|Circular reference detected
+|ERROR|2022-02-25 10:15:06,175|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:06,175|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:06,175|Circular reference detected
+|ERROR|2022-02-25 10:15:06,663|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:06,663|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:06,663|Circular reference detected
+|ERROR|2022-02-25 10:15:07,684|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:07,684|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:07,685|Circular reference detected
+|ERROR|2022-02-25 10:15:08,644|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:08,644|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:08,644|Circular reference detected
+|ERROR|2022-02-25 10:15:09,175|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:09,176|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:09,176|Circular reference detected
+|ERROR|2022-02-25 10:15:10,156|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:10,156|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:10,156|Circular reference detected
+|ERROR|2022-02-25 10:15:10,651|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:10,651|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:10,651|Circular reference detected
+|ERROR|2022-02-25 10:15:11,168|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:11,168|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:11,168|Circular reference detected
+|ERROR|2022-02-25 10:15:11,820|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:11,820|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:11,821|Circular reference detected
+|ERROR|2022-02-25 10:15:12,185|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:12,185|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:12,186|Circular reference detected
+|ERROR|2022-02-25 10:15:12,660|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:12,660|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:12,660|Circular reference detected
+|ERROR|2022-02-25 10:15:15,361|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:15,370|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:15,370|Circular reference detected
+|ERROR|2022-02-25 10:15:16,170|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:16,170|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:16,170|Circular reference detected
+|ERROR|2022-02-25 10:15:16,636|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:16,636|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:16,636|Circular reference detected
+|ERROR|2022-02-25 10:15:17,137|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:17,138|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:17,138|Circular reference detected
+|ERROR|2022-02-25 10:15:18,641|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:18,641|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:18,641|Circular reference detected
+|ERROR|2022-02-25 10:15:19,138|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:19,138|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:19,138|Circular reference detected
+|ERROR|2022-02-25 10:15:19,831|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:19,831|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:19,831|Circular reference detected
+|ERROR|2022-02-25 10:15:20,845|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:20,846|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:20,846|Circular reference detected
+|ERROR|2022-02-25 10:15:21,146|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:21,146|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:21,146|Circular reference detected
+|ERROR|2022-02-25 10:15:24,460|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:24,460|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:24,460|Circular reference detected
+|ERROR|2022-02-25 10:15:24,648|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:24,649|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:24,650|Circular reference detected
+|ERROR|2022-02-25 10:15:25,175|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:25,175|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:25,175|Circular reference detected
+|ERROR|2022-02-25 10:15:26,137|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:26,137|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:26,137|Circular reference detected
+|ERROR|2022-02-25 10:15:26,678|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:26,678|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:26,678|Circular reference detected
+|ERROR|2022-02-25 10:15:27,694|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:27,694|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:27,694|Circular reference detected
+|ERROR|2022-02-25 10:15:28,267|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:28,267|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:28,267|Circular reference detected
+|ERROR|2022-02-25 10:15:29,182|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:29,183|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:29,183|Circular reference detected
+|ERROR|2022-02-25 10:15:30,783|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:30,783|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:30,783|Circular reference detected
+|ERROR|2022-02-25 10:15:32,316|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:32,316|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:32,316|Circular reference detected
+|ERROR|2022-02-25 10:15:33,218|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:33,266|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:33,266|Circular reference detected
+|ERROR|2022-02-25 10:15:34,376|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:34,380|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:34,380|Circular reference detected
+|ERROR|2022-02-25 10:15:34,816|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:34,819|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:34,819|Circular reference detected
+|ERROR|2022-02-25 10:15:35,267|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:35,268|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:35,268|Circular reference detected
+|ERROR|2022-02-25 10:15:35,801|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:35,801|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:35,801|Circular reference detected
+|ERROR|2022-02-25 10:15:36,134|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:36,135|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:36,135|Circular reference detected
+|ERROR|2022-02-25 10:15:36,760|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:36,760|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:36,760|Circular reference detected
+|ERROR|2022-02-25 10:15:37,306|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:37,306|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:37,306|Circular reference detected
+|ERROR|2022-02-25 10:15:38,636|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:38,636|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:38,636|Circular reference detected
+|ERROR|2022-02-25 10:15:39,221|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:39,221|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:39,221|Circular reference detected
+|ERROR|2022-02-25 10:15:39,675|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:39,675|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:39,675|Circular reference detected
+|ERROR|2022-02-25 10:15:42,147|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:42,148|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:42,148|Circular reference detected
+|ERROR|2022-02-25 10:15:44,648|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:44,648|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:44,648|Circular reference detected
+|ERROR|2022-02-25 10:15:46,150|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:46,150|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:46,151|Circular reference detected
+|ERROR|2022-02-25 10:15:48,149|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:48,149|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:48,149|Circular reference detected
+|ERROR|2022-02-25 10:15:48,652|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:48,653|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:48,653|Circular reference detected
+|ERROR|2022-02-25 10:15:49,634|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:49,634|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:49,634|Circular reference detected
+|ERROR|2022-02-25 10:15:50,210|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:50,210|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:50,210|Circular reference detected
+|ERROR|2022-02-25 10:15:50,760|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:50,760|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:50,760|Circular reference detected
+|ERROR|2022-02-25 10:15:51,644|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:51,645|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:51,645|Circular reference detected
+|ERROR|2022-02-25 10:15:52,204|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:52,204|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:52,204|Circular reference detected
+|ERROR|2022-02-25 10:15:52,649|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:52,649|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:52,649|Circular reference detected
+|ERROR|2022-02-25 10:15:53,760|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:53,760|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:53,760|Circular reference detected
+|ERROR|2022-02-25 10:15:54,234|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:54,234|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:54,234|Circular reference detected
+|ERROR|2022-02-25 10:15:55,724|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:55,724|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:55,724|Circular reference detected
+|ERROR|2022-02-25 10:15:56,135|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:56,135|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:56,135|Circular reference detected
+|ERROR|2022-02-25 10:15:56,658|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:56,658|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:56,658|Circular reference detected
+|ERROR|2022-02-25 10:15:58,711|Call of print_data raised an error:
+|ERROR|2022-02-25 10:15:58,711|<class 'ValueError'>
+|ERROR|2022-02-25 10:15:58,712|Circular reference detected
+|ERROR|2022-02-25 10:16:00,656|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:00,656|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:00,656|Circular reference detected
+|ERROR|2022-02-25 10:16:01,230|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:01,230|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:01,230|Circular reference detected
+|ERROR|2022-02-25 10:16:01,705|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:01,706|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:01,706|Circular reference detected
+|ERROR|2022-02-25 10:16:02,660|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:02,660|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:02,660|Circular reference detected
+|ERROR|2022-02-25 10:16:03,676|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:03,676|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:03,676|Circular reference detected
+|ERROR|2022-02-25 10:16:04,161|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:04,163|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:04,163|Circular reference detected
+|ERROR|2022-02-25 10:16:04,692|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:04,692|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:04,692|Circular reference detected
+|ERROR|2022-02-25 10:16:05,376|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:05,376|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:05,376|Circular reference detected
+|ERROR|2022-02-25 10:16:05,652|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:05,652|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:05,652|Circular reference detected
+|ERROR|2022-02-25 10:16:06,360|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:06,361|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:06,361|Circular reference detected
+|ERROR|2022-02-25 10:16:07,640|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:07,641|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:07,641|Circular reference detected
+|ERROR|2022-02-25 10:16:08,283|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:08,283|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:08,284|Circular reference detected
+|ERROR|2022-02-25 10:16:08,667|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:08,668|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:08,668|Circular reference detected
+|ERROR|2022-02-25 10:16:09,137|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:09,137|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:09,137|Circular reference detected
+|ERROR|2022-02-25 10:16:09,661|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:09,661|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:09,661|Circular reference detected
+|ERROR|2022-02-25 10:16:10,672|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:10,672|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:10,672|Circular reference detected
+|ERROR|2022-02-25 10:16:12,227|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:12,228|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:12,228|Circular reference detected
+|ERROR|2022-02-25 10:16:13,172|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:13,172|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:13,174|Circular reference detected
+|ERROR|2022-02-25 10:16:15,642|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:15,642|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:15,642|Circular reference detected
+|ERROR|2022-02-25 10:16:16,190|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:16,191|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:16,191|Circular reference detected
+|ERROR|2022-02-25 10:16:17,142|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:17,142|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:17,142|Circular reference detected
+|ERROR|2022-02-25 10:16:18,152|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:18,152|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:18,152|Circular reference detected
+|ERROR|2022-02-25 10:16:18,680|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:18,681|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:18,681|Circular reference detected
+|ERROR|2022-02-25 10:16:21,802|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:21,802|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:21,802|Circular reference detected
+|ERROR|2022-02-25 10:16:22,144|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:22,144|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:22,144|Circular reference detected
+|ERROR|2022-02-25 10:16:22,657|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:22,658|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:22,659|Circular reference detected
+|ERROR|2022-02-25 10:16:23,275|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:23,275|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:23,276|Circular reference detected
+|ERROR|2022-02-25 10:16:23,646|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:23,646|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:23,646|Circular reference detected
+|ERROR|2022-02-25 10:16:24,165|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:24,165|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:24,165|Circular reference detected
+|ERROR|2022-02-25 10:16:25,150|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:25,151|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:25,151|Circular reference detected
+|ERROR|2022-02-25 10:16:25,635|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:25,635|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:25,635|Circular reference detected
+|ERROR|2022-02-25 10:16:26,652|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:26,652|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:26,652|Circular reference detected
+|ERROR|2022-02-25 10:16:27,207|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:27,207|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:27,207|Circular reference detected
+|ERROR|2022-02-25 10:16:27,648|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:27,648|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:27,648|Circular reference detected
+|ERROR|2022-02-25 10:16:28,137|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:28,137|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:28,137|Circular reference detected
+|ERROR|2022-02-25 10:16:28,652|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:28,652|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:28,652|Circular reference detected
+|ERROR|2022-02-25 10:16:29,144|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:29,144|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:29,144|Circular reference detected
+|ERROR|2022-02-25 10:16:29,714|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:29,714|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:29,714|Circular reference detected
+|ERROR|2022-02-25 10:16:30,170|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:30,170|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:30,170|Circular reference detected
+|ERROR|2022-02-25 10:16:30,643|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:30,644|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:30,644|Circular reference detected
+|ERROR|2022-02-25 10:16:31,140|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:31,140|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:31,140|Circular reference detected
+|ERROR|2022-02-25 10:16:31,650|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:31,650|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:31,650|Circular reference detected
+|ERROR|2022-02-25 10:16:32,217|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:32,217|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:32,217|Circular reference detected
+|ERROR|2022-02-25 10:16:33,143|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:33,144|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:33,144|Circular reference detected
+|ERROR|2022-02-25 10:16:33,683|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:33,684|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:33,684|Circular reference detected
+|ERROR|2022-02-25 10:16:36,146|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:36,147|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:36,147|Circular reference detected
+|ERROR|2022-02-25 10:16:36,644|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:36,644|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:36,645|Circular reference detected
+|ERROR|2022-02-25 10:16:37,641|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:37,641|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:37,641|Circular reference detected
+|ERROR|2022-02-25 10:16:38,226|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:38,228|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:38,228|Circular reference detected
+|ERROR|2022-02-25 10:16:38,647|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:38,647|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:38,647|Circular reference detected
+|ERROR|2022-02-25 10:16:39,145|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:39,146|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:39,146|Circular reference detected
+|ERROR|2022-02-25 10:16:39,674|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:39,674|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:39,674|Circular reference detected
+|ERROR|2022-02-25 10:16:40,165|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:40,165|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:40,165|Circular reference detected
+|ERROR|2022-02-25 10:16:43,148|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:43,149|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:43,149|Circular reference detected
+|ERROR|2022-02-25 10:16:45,155|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:45,156|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:45,156|Circular reference detected
+|ERROR|2022-02-25 10:16:45,636|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:45,637|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:45,637|Circular reference detected
+|ERROR|2022-02-25 10:16:46,654|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:46,654|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:46,654|Circular reference detected
+|ERROR|2022-02-25 10:16:49,146|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:49,146|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:49,146|Circular reference detected
+|ERROR|2022-02-25 10:16:49,770|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:49,770|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:49,770|Circular reference detected
+|ERROR|2022-02-25 10:16:54,811|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:54,811|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:54,811|Circular reference detected
+|ERROR|2022-02-25 10:16:57,301|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:57,301|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:57,301|Circular reference detected
+|ERROR|2022-02-25 10:16:57,683|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:57,683|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:57,683|Circular reference detected
+|ERROR|2022-02-25 10:16:58,639|Call of print_data raised an error:
+|ERROR|2022-02-25 10:16:58,639|<class 'ValueError'>
+|ERROR|2022-02-25 10:16:58,639|Circular reference detected
+|ERROR|2022-02-25 10:17:02,321|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:02,321|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:02,321|Circular reference detected
+|ERROR|2022-02-25 10:17:05,645|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:05,645|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:05,645|Circular reference detected
+|ERROR|2022-02-25 10:17:06,141|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:06,141|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:06,141|Circular reference detected
+|ERROR|2022-02-25 10:17:06,653|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:06,654|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:06,654|Circular reference detected
+|ERROR|2022-02-25 10:17:07,157|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:07,157|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:07,157|Circular reference detected
+|ERROR|2022-02-25 10:17:07,648|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:07,648|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:07,648|Circular reference detected
+|ERROR|2022-02-25 10:17:08,640|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:08,641|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:08,641|Circular reference detected
+|ERROR|2022-02-25 10:17:09,151|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:09,151|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:09,151|Circular reference detected
+|ERROR|2022-02-25 10:17:10,147|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:10,147|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:10,147|Circular reference detected
+|ERROR|2022-02-25 10:17:10,680|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:10,681|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:10,681|Circular reference detected
+|ERROR|2022-02-25 10:17:11,296|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:11,296|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:11,365|Circular reference detected
+|ERROR|2022-02-25 10:17:13,712|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:13,712|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:13,712|Circular reference detected
+|ERROR|2022-02-25 10:17:14,322|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:14,322|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:14,322|Circular reference detected
+|ERROR|2022-02-25 10:17:15,277|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:15,277|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:15,278|Circular reference detected
+|ERROR|2022-02-25 10:17:16,768|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:16,769|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:16,770|Circular reference detected
+|ERROR|2022-02-25 10:17:17,163|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:17,163|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:17,164|Circular reference detected
+|ERROR|2022-02-25 10:17:17,646|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:17,646|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:17,647|Circular reference detected
+|ERROR|2022-02-25 10:17:18,265|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:18,266|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:18,266|Circular reference detected
+|ERROR|2022-02-25 10:17:19,167|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:19,167|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:19,167|Circular reference detected
+|ERROR|2022-02-25 10:17:19,650|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:19,651|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:19,651|Circular reference detected
+|ERROR|2022-02-25 10:17:20,420|Call of print_data raised an error:
+|ERROR|2022-02-25 10:17:20,420|<class 'ValueError'>
+|ERROR|2022-02-25 10:17:20,420|Circular reference detected
+|ERROR|2022-02-25 10:17:26,545|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 10:17:26,545|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 10:17:26,545|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer r2m1GZdNLUqkSsDLCAcUa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-25 10:17:26,545|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-25 10:17:26,545|Bearer token: Bearer r2m1GZdNLUqkSsDLCAcUa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 10:17:26,545|Connection status: established
+|ERROR|2022-02-25 10:17:26,545|Socket session id: r2m1GZdNLUqkSsDLCAcU
+|ERROR|2022-02-25 10:17:26,545|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 10:17:26,678|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 10:17:26,678|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 10:17:26,678|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer r2m1GZdNLUqkSsDLCAcUa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-25 10:17:26,679|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-25 10:17:26,679|Bearer token: Bearer r2m1GZdNLUqkSsDLCAcUa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 10:17:26,679|Connection status: established
+|ERROR|2022-02-25 10:17:26,679|Socket session id: r2m1GZdNLUqkSsDLCAcU
+|ERROR|2022-02-25 10:17:26,679|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 13:27:19,326|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 13:27:19,334|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 13:27:19,334|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer er5QJvSmJoyrAgKrBvUFa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-25 13:27:19,334|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-25 13:27:19,335|Bearer token: Bearer er5QJvSmJoyrAgKrBvUFa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 13:27:19,335|Connection status: established
+|ERROR|2022-02-25 13:27:19,335|Socket session id: er5QJvSmJoyrAgKrBvUF
+|ERROR|2022-02-25 13:27:19,335|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 13:27:19,579|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 13:27:19,580|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 13:27:19,580|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer er5QJvSmJoyrAgKrBvUFa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-25 13:27:19,580|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-25 13:27:19,580|Bearer token: Bearer er5QJvSmJoyrAgKrBvUFa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 13:27:19,580|Connection status: established
+|ERROR|2022-02-25 13:27:19,600|Socket session id: er5QJvSmJoyrAgKrBvUF
+|ERROR|2022-02-25 13:27:19,601|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 17:59:05,094|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 17:59:05,095|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 17:59:05,095|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer _6tSpjGOpyvn4BWiBvFza37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-25 17:59:05,096|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-25 17:59:05,096|Bearer token: Bearer _6tSpjGOpyvn4BWiBvFza37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 17:59:05,096|Connection status: established
+|ERROR|2022-02-25 17:59:05,096|Socket session id: _6tSpjGOpyvn4BWiBvFz
+|ERROR|2022-02-25 17:59:05,096|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 17:59:05,338|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 17:59:05,338|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 17:59:05,338|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer _6tSpjGOpyvn4BWiBvFza37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-25 17:59:05,338|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-25 17:59:05,339|Bearer token: Bearer _6tSpjGOpyvn4BWiBvFza37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 17:59:05,339|Connection status: established
+|ERROR|2022-02-25 17:59:05,339|Socket session id: _6tSpjGOpyvn4BWiBvFz
+|ERROR|2022-02-25 17:59:05,339|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 18:01:20,517|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 18:01:20,517|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 18:01:20,518|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 3lwEwXlBQwxfuVEBBvHca37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-25 18:01:20,518|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-25 18:01:20,518|Bearer token: Bearer 3lwEwXlBQwxfuVEBBvHca37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 18:01:20,518|Connection status: established
+|ERROR|2022-02-25 18:01:20,518|Socket session id: 3lwEwXlBQwxfuVEBBvHc
+|ERROR|2022-02-25 18:01:20,518|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 18:01:20,656|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 18:01:20,656|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 18:01:20,657|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 3lwEwXlBQwxfuVEBBvHca37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-25 18:01:20,657|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-25 18:01:20,657|Bearer token: Bearer 3lwEwXlBQwxfuVEBBvHca37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 18:01:20,657|Connection status: established
+|ERROR|2022-02-25 18:01:20,657|Socket session id: 3lwEwXlBQwxfuVEBBvHc
+|ERROR|2022-02-25 18:01:20,658|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 18:01:22,692|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:22,692|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:22,692|Circular reference detected
+|ERROR|2022-02-25 18:01:24,222|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:24,224|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:24,224|Circular reference detected
+|ERROR|2022-02-25 18:01:24,685|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:24,685|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:24,685|Circular reference detected
+|ERROR|2022-02-25 18:01:25,658|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:25,659|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:25,659|Circular reference detected
+|ERROR|2022-02-25 18:01:27,812|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:27,812|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:27,813|Circular reference detected
+|ERROR|2022-02-25 18:01:30,731|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:30,731|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:30,731|Circular reference detected
+|ERROR|2022-02-25 18:01:33,184|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:33,184|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:33,184|Circular reference detected
+|ERROR|2022-02-25 18:01:37,859|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:37,860|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:37,860|Circular reference detected
+|ERROR|2022-02-25 18:01:38,732|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:38,732|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:38,732|Circular reference detected
+|ERROR|2022-02-25 18:01:39,339|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:39,339|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:39,339|Circular reference detected
+|ERROR|2022-02-25 18:01:39,834|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:39,834|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:39,834|Circular reference detected
+|ERROR|2022-02-25 18:01:40,601|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:40,601|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:40,602|Circular reference detected
+|ERROR|2022-02-25 18:01:40,750|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:40,751|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:40,751|Circular reference detected
+|ERROR|2022-02-25 18:01:41,691|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:41,691|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:41,691|Circular reference detected
+|ERROR|2022-02-25 18:01:42,793|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:42,793|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:42,793|Circular reference detected
+|ERROR|2022-02-25 18:01:43,708|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:43,708|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:43,708|Circular reference detected
+|ERROR|2022-02-25 18:01:45,391|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:45,391|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:45,391|Circular reference detected
+|ERROR|2022-02-25 18:01:46,691|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:46,691|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:46,691|Circular reference detected
+|ERROR|2022-02-25 18:01:47,764|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:47,764|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:47,764|Circular reference detected
+|ERROR|2022-02-25 18:01:49,702|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:49,703|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:49,703|Circular reference detected
+|ERROR|2022-02-25 18:01:50,346|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:50,346|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:50,346|Circular reference detected
+|ERROR|2022-02-25 18:01:52,283|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:52,283|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:52,283|Circular reference detected
+|ERROR|2022-02-25 18:01:53,061|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:53,061|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:53,061|Circular reference detected
+|ERROR|2022-02-25 18:01:53,725|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:53,725|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:53,725|Circular reference detected
+|ERROR|2022-02-25 18:01:54,382|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:54,382|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:54,383|Circular reference detected
+|ERROR|2022-02-25 18:01:59,513|Call of print_data raised an error:
+|ERROR|2022-02-25 18:01:59,513|<class 'ValueError'>
+|ERROR|2022-02-25 18:01:59,513|Circular reference detected
+|ERROR|2022-02-25 18:02:00,865|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:00,865|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:00,865|Circular reference detected
+|ERROR|2022-02-25 18:02:01,830|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:01,830|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:01,830|Circular reference detected
+|ERROR|2022-02-25 18:02:04,306|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:04,306|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:04,306|Circular reference detected
+|ERROR|2022-02-25 18:02:05,210|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:05,210|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:05,210|Circular reference detected
+|ERROR|2022-02-25 18:02:05,729|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:05,729|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:05,729|Circular reference detected
+|ERROR|2022-02-25 18:02:07,711|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:07,711|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:07,711|Circular reference detected
+|ERROR|2022-02-25 18:02:14,818|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:14,818|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:14,818|Circular reference detected
+|ERROR|2022-02-25 18:02:15,835|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:15,835|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:15,836|Circular reference detected
+|ERROR|2022-02-25 18:02:18,487|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:18,487|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:18,487|Circular reference detected
+|ERROR|2022-02-25 18:02:21,237|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:21,238|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:21,238|Circular reference detected
+|ERROR|2022-02-25 18:02:21,666|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:21,666|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:21,666|Circular reference detected
+|ERROR|2022-02-25 18:02:26,385|Call of print_data raised an error:
+|ERROR|2022-02-25 18:02:26,385|<class 'ValueError'>
+|ERROR|2022-02-25 18:02:26,385|Circular reference detected
+|ERROR|2022-02-25 18:02:37,877|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 18:02:37,877|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 18:02:37,877|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Lzg08os3U9FVAwfxBvJma37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-25 18:02:37,877|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-25 18:02:37,877|Bearer token: Bearer Lzg08os3U9FVAwfxBvJma37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 18:02:37,877|Connection status: established
+|ERROR|2022-02-25 18:02:37,878|Socket session id: Lzg08os3U9FVAwfxBvJm
+|ERROR|2022-02-25 18:02:37,878|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 18:02:38,023|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 18:02:38,023|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 18:02:38,024|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Lzg08os3U9FVAwfxBvJma37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-25 18:02:38,024|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-25 18:02:38,024|Bearer token: Bearer Lzg08os3U9FVAwfxBvJma37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 18:02:38,024|Connection status: established
+|ERROR|2022-02-25 18:02:38,024|Socket session id: Lzg08os3U9FVAwfxBvJm
+|ERROR|2022-02-25 18:02:38,024|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 18:04:04,695|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:04,695|<class 'NameError'>
+|ERROR|2022-02-25 18:04:04,697|name 'db' is not defined
+|ERROR|2022-02-25 18:04:06,130|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:06,130|<class 'NameError'>
+|ERROR|2022-02-25 18:04:06,130|name 'db' is not defined
+|ERROR|2022-02-25 18:04:09,122|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:09,122|<class 'NameError'>
+|ERROR|2022-02-25 18:04:09,123|name 'db' is not defined
+|ERROR|2022-02-25 18:04:09,625|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:09,625|<class 'NameError'>
+|ERROR|2022-02-25 18:04:09,625|name 'db' is not defined
+|ERROR|2022-02-25 18:04:10,113|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:10,113|<class 'NameError'>
+|ERROR|2022-02-25 18:04:10,113|name 'db' is not defined
+|ERROR|2022-02-25 18:04:10,756|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:10,756|<class 'NameError'>
+|ERROR|2022-02-25 18:04:10,756|name 'db' is not defined
+|ERROR|2022-02-25 18:04:11,811|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:11,812|<class 'NameError'>
+|ERROR|2022-02-25 18:04:11,813|name 'db' is not defined
+|ERROR|2022-02-25 18:04:12,359|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:12,360|<class 'NameError'>
+|ERROR|2022-02-25 18:04:12,360|name 'db' is not defined
+|ERROR|2022-02-25 18:04:13,742|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:13,743|<class 'NameError'>
+|ERROR|2022-02-25 18:04:13,743|name 'db' is not defined
+|ERROR|2022-02-25 18:04:14,781|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:14,781|<class 'NameError'>
+|ERROR|2022-02-25 18:04:14,781|name 'db' is not defined
+|ERROR|2022-02-25 18:04:15,595|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:15,596|<class 'NameError'>
+|ERROR|2022-02-25 18:04:15,597|name 'db' is not defined
+|ERROR|2022-02-25 18:04:20,686|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:20,686|<class 'NameError'>
+|ERROR|2022-02-25 18:04:20,686|name 'db' is not defined
+|ERROR|2022-02-25 18:04:21,778|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:21,778|<class 'NameError'>
+|ERROR|2022-02-25 18:04:21,779|name 'db' is not defined
+|ERROR|2022-02-25 18:04:26,161|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:26,161|<class 'NameError'>
+|ERROR|2022-02-25 18:04:26,161|name 'db' is not defined
+|ERROR|2022-02-25 18:04:26,685|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:26,686|<class 'NameError'>
+|ERROR|2022-02-25 18:04:26,686|name 'db' is not defined
+|ERROR|2022-02-25 18:04:28,012|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:28,013|<class 'NameError'>
+|ERROR|2022-02-25 18:04:28,014|name 'db' is not defined
+|ERROR|2022-02-25 18:04:30,276|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:30,276|<class 'NameError'>
+|ERROR|2022-02-25 18:04:30,276|name 'db' is not defined
+|ERROR|2022-02-25 18:04:32,154|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:32,183|<class 'NameError'>
+|ERROR|2022-02-25 18:04:32,183|name 'db' is not defined
+|ERROR|2022-02-25 18:04:32,320|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:32,321|<class 'NameError'>
+|ERROR|2022-02-25 18:04:32,321|name 'db' is not defined
+|ERROR|2022-02-25 18:04:32,841|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:32,842|<class 'NameError'>
+|ERROR|2022-02-25 18:04:32,842|name 'db' is not defined
+|ERROR|2022-02-25 18:04:34,695|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:34,695|<class 'NameError'>
+|ERROR|2022-02-25 18:04:34,695|name 'db' is not defined
+|ERROR|2022-02-25 18:04:36,231|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:36,233|<class 'NameError'>
+|ERROR|2022-02-25 18:04:36,233|name 'db' is not defined
+|ERROR|2022-02-25 18:04:37,280|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:37,281|<class 'NameError'>
+|ERROR|2022-02-25 18:04:37,282|name 'db' is not defined
+|ERROR|2022-02-25 18:04:37,861|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:37,862|<class 'NameError'>
+|ERROR|2022-02-25 18:04:37,862|name 'db' is not defined
+|ERROR|2022-02-25 18:04:39,756|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:39,757|<class 'NameError'>
+|ERROR|2022-02-25 18:04:39,757|name 'db' is not defined
+|ERROR|2022-02-25 18:04:40,755|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:40,755|<class 'NameError'>
+|ERROR|2022-02-25 18:04:40,756|name 'db' is not defined
+|ERROR|2022-02-25 18:04:43,839|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:43,839|<class 'NameError'>
+|ERROR|2022-02-25 18:04:43,839|name 'db' is not defined
+|ERROR|2022-02-25 18:04:44,368|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:44,368|<class 'NameError'>
+|ERROR|2022-02-25 18:04:44,368|name 'db' is not defined
+|ERROR|2022-02-25 18:04:49,110|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:49,111|<class 'NameError'>
+|ERROR|2022-02-25 18:04:49,111|name 'db' is not defined
+|ERROR|2022-02-25 18:04:50,154|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:50,154|<class 'NameError'>
+|ERROR|2022-02-25 18:04:50,155|name 'db' is not defined
+|ERROR|2022-02-25 18:04:50,613|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:50,614|<class 'NameError'>
+|ERROR|2022-02-25 18:04:50,614|name 'db' is not defined
+|ERROR|2022-02-25 18:04:51,135|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:51,136|<class 'NameError'>
+|ERROR|2022-02-25 18:04:51,136|name 'db' is not defined
+|ERROR|2022-02-25 18:04:51,784|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:51,785|<class 'NameError'>
+|ERROR|2022-02-25 18:04:51,785|name 'db' is not defined
+|ERROR|2022-02-25 18:04:54,897|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:54,898|<class 'NameError'>
+|ERROR|2022-02-25 18:04:54,898|name 'db' is not defined
+|ERROR|2022-02-25 18:04:56,717|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:56,718|<class 'NameError'>
+|ERROR|2022-02-25 18:04:56,718|name 'db' is not defined
+|ERROR|2022-02-25 18:04:59,189|Call of print_data raised an error:
+|ERROR|2022-02-25 18:04:59,189|<class 'NameError'>
+|ERROR|2022-02-25 18:04:59,190|name 'db' is not defined
+|ERROR|2022-02-25 18:05:00,137|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:00,137|<class 'NameError'>
+|ERROR|2022-02-25 18:05:00,137|name 'db' is not defined
+|ERROR|2022-02-25 18:05:01,033|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:01,033|<class 'NameError'>
+|ERROR|2022-02-25 18:05:01,033|name 'db' is not defined
+|ERROR|2022-02-25 18:05:01,855|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:01,856|<class 'NameError'>
+|ERROR|2022-02-25 18:05:01,857|name 'db' is not defined
+|ERROR|2022-02-25 18:05:02,396|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:02,397|<class 'NameError'>
+|ERROR|2022-02-25 18:05:02,397|name 'db' is not defined
+|ERROR|2022-02-25 18:05:02,776|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:02,777|<class 'NameError'>
+|ERROR|2022-02-25 18:05:02,777|name 'db' is not defined
+|ERROR|2022-02-25 18:05:03,337|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:03,338|<class 'NameError'>
+|ERROR|2022-02-25 18:05:03,338|name 'db' is not defined
+|ERROR|2022-02-25 18:05:07,671|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:07,672|<class 'NameError'>
+|ERROR|2022-02-25 18:05:07,672|name 'db' is not defined
+|ERROR|2022-02-25 18:05:08,124|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:08,124|<class 'NameError'>
+|ERROR|2022-02-25 18:05:08,124|name 'db' is not defined
+|ERROR|2022-02-25 18:05:08,639|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:08,639|<class 'NameError'>
+|ERROR|2022-02-25 18:05:08,639|name 'db' is not defined
+|ERROR|2022-02-25 18:05:10,645|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:10,646|<class 'NameError'>
+|ERROR|2022-02-25 18:05:10,647|name 'db' is not defined
+|ERROR|2022-02-25 18:05:14,274|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:14,275|<class 'NameError'>
+|ERROR|2022-02-25 18:05:14,275|name 'db' is not defined
+|ERROR|2022-02-25 18:05:14,714|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:14,715|<class 'NameError'>
+|ERROR|2022-02-25 18:05:14,716|name 'db' is not defined
+|ERROR|2022-02-25 18:05:26,240|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:26,241|<class 'NameError'>
+|ERROR|2022-02-25 18:05:26,242|name 'db' is not defined
+|ERROR|2022-02-25 18:05:26,727|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:26,730|<class 'NameError'>
+|ERROR|2022-02-25 18:05:26,730|name 'db' is not defined
+|ERROR|2022-02-25 18:05:37,774|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:37,774|<class 'NameError'>
+|ERROR|2022-02-25 18:05:37,775|name 'db' is not defined
+|ERROR|2022-02-25 18:05:48,733|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:48,739|<class 'NameError'>
+|ERROR|2022-02-25 18:05:48,740|name 'db' is not defined
+|ERROR|2022-02-25 18:05:55,345|Call of print_data raised an error:
+|ERROR|2022-02-25 18:05:55,346|<class 'NameError'>
+|ERROR|2022-02-25 18:05:55,346|name 'db' is not defined
+|ERROR|2022-02-25 18:06:05,801|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:05,802|<class 'NameError'>
+|ERROR|2022-02-25 18:06:05,803|name 'db' is not defined
+|ERROR|2022-02-25 18:06:08,182|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:08,182|<class 'NameError'>
+|ERROR|2022-02-25 18:06:08,182|name 'db' is not defined
+|ERROR|2022-02-25 18:06:09,133|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:09,133|<class 'NameError'>
+|ERROR|2022-02-25 18:06:09,133|name 'db' is not defined
+|ERROR|2022-02-25 18:06:09,720|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:09,720|<class 'NameError'>
+|ERROR|2022-02-25 18:06:09,721|name 'db' is not defined
+|ERROR|2022-02-25 18:06:10,420|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:10,421|<class 'NameError'>
+|ERROR|2022-02-25 18:06:10,421|name 'db' is not defined
+|ERROR|2022-02-25 18:06:25,176|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:25,177|<class 'NameError'>
+|ERROR|2022-02-25 18:06:25,177|name 'db' is not defined
+|ERROR|2022-02-25 18:06:26,694|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:26,695|<class 'NameError'>
+|ERROR|2022-02-25 18:06:26,695|name 'db' is not defined
+|ERROR|2022-02-25 18:06:30,649|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:30,649|<class 'NameError'>
+|ERROR|2022-02-25 18:06:30,649|name 'db' is not defined
+|ERROR|2022-02-25 18:06:32,622|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:32,622|<class 'NameError'>
+|ERROR|2022-02-25 18:06:32,622|name 'db' is not defined
+|ERROR|2022-02-25 18:06:34,284|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:34,284|<class 'NameError'>
+|ERROR|2022-02-25 18:06:34,285|name 'db' is not defined
+|ERROR|2022-02-25 18:06:46,670|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:46,670|<class 'NameError'>
+|ERROR|2022-02-25 18:06:46,671|name 'db' is not defined
+|ERROR|2022-02-25 18:06:48,796|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:48,797|<class 'NameError'>
+|ERROR|2022-02-25 18:06:48,797|name 'db' is not defined
+|ERROR|2022-02-25 18:06:49,274|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:49,274|<class 'NameError'>
+|ERROR|2022-02-25 18:06:49,274|name 'db' is not defined
+|ERROR|2022-02-25 18:06:52,683|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:52,683|<class 'NameError'>
+|ERROR|2022-02-25 18:06:52,683|name 'db' is not defined
+|ERROR|2022-02-25 18:06:53,241|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:53,241|<class 'NameError'>
+|ERROR|2022-02-25 18:06:53,241|name 'db' is not defined
+|ERROR|2022-02-25 18:06:53,788|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:53,790|<class 'NameError'>
+|ERROR|2022-02-25 18:06:53,790|name 'db' is not defined
+|ERROR|2022-02-25 18:06:54,634|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:54,634|<class 'NameError'>
+|ERROR|2022-02-25 18:06:54,634|name 'db' is not defined
+|ERROR|2022-02-25 18:06:55,125|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:55,125|<class 'NameError'>
+|ERROR|2022-02-25 18:06:55,125|name 'db' is not defined
+|ERROR|2022-02-25 18:06:55,658|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:55,658|<class 'NameError'>
+|ERROR|2022-02-25 18:06:55,658|name 'db' is not defined
+|ERROR|2022-02-25 18:06:58,769|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:58,769|<class 'NameError'>
+|ERROR|2022-02-25 18:06:58,769|name 'db' is not defined
+|ERROR|2022-02-25 18:06:59,666|Call of print_data raised an error:
+|ERROR|2022-02-25 18:06:59,666|<class 'NameError'>
+|ERROR|2022-02-25 18:06:59,667|name 'db' is not defined
+|ERROR|2022-02-25 18:07:01,610|Call of print_data raised an error:
+|ERROR|2022-02-25 18:07:01,610|<class 'NameError'>
+|ERROR|2022-02-25 18:07:01,610|name 'db' is not defined
+|ERROR|2022-02-25 18:07:02,615|Call of print_data raised an error:
+|ERROR|2022-02-25 18:07:02,619|<class 'NameError'>
+|ERROR|2022-02-25 18:07:02,620|name 'db' is not defined
+|ERROR|2022-02-25 18:07:03,675|Call of print_data raised an error:
+|ERROR|2022-02-25 18:07:03,676|<class 'NameError'>
+|ERROR|2022-02-25 18:07:03,676|name 'db' is not defined
+|ERROR|2022-02-25 18:07:05,031|Call of print_data raised an error:
+|ERROR|2022-02-25 18:07:05,033|<class 'NameError'>
+|ERROR|2022-02-25 18:07:05,033|name 'db' is not defined
+|ERROR|2022-02-25 18:07:14,171|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 18:07:14,172|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 18:07:14,172|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer J5B9fCbGmW0iAQlCBvN0a37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-25 18:07:14,172|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-25 18:07:14,173|Bearer token: Bearer J5B9fCbGmW0iAQlCBvN0a37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 18:07:14,173|Connection status: established
+|ERROR|2022-02-25 18:07:14,173|Socket session id: J5B9fCbGmW0iAQlCBvN0
+|ERROR|2022-02-25 18:07:14,173|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 18:07:14,349|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 18:07:14,349|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 18:07:14,349|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer J5B9fCbGmW0iAQlCBvN0a37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-25 18:07:14,349|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-25 18:07:14,349|Bearer token: Bearer J5B9fCbGmW0iAQlCBvN0a37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 18:07:14,350|Connection status: established
+|ERROR|2022-02-25 18:07:14,350|Socket session id: J5B9fCbGmW0iAQlCBvN0
+|ERROR|2022-02-25 18:07:14,350|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 18:10:28,558|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 18:10:28,558|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 18:10:28,558|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer yPkc6iV6fTHutEXDBvOAa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-02-25 18:10:28,559|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-02-25 18:10:28,559|Bearer token: Bearer yPkc6iV6fTHutEXDBvOAa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 18:10:28,559|Connection status: established
+|ERROR|2022-02-25 18:10:28,559|Socket session id: yPkc6iV6fTHutEXDBvOA
+|ERROR|2022-02-25 18:10:28,559|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-02-25 18:10:28,853|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "CFD_U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-02-25 18:10:28,853|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-02-25 18:10:28,853|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer yPkc6iV6fTHutEXDBvOAa37ab0096b60a275923ce89a52221d4948a28f3b', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-02-25 18:10:28,853|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-02-25 18:10:28,854|Bearer token: Bearer yPkc6iV6fTHutEXDBvOAa37ab0096b60a275923ce89a52221d4948a28f3b
+|ERROR|2022-02-25 18:10:28,854|Connection status: established
+|ERROR|2022-02-25 18:10:28,854|Socket session id: yPkc6iV6fTHutEXDBvOA
+|ERROR|2022-02-25 18:10:28,854|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"CFD_U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
