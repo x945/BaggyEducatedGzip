@@ -1,11 +1,19 @@
 {
   "files": {
+    "data/ask_ticks.csv": [
+      {
+        "id": "0899e635-9ee7-4ba3-bedf-9b2c683716ad",
+        "line": 1,
+        "version": 1,
+        "index": 0
+      }
+    ],
     "main.py": [
       {
         "id": "47413502-ae44-41b5-90db-043646a0f5b6",
-        "line": 2,
-        "version": 5205,
-        "index": 14
+        "line": 1,
+        "version": 7249,
+        "index": 0
       }
     ]
   }

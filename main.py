@@ -3,93 +3,145 @@ import numpy as np
 import pandas as pd
 import pandas_ta as ta
 import time
+import datetime
+from datetime import timedelta
+from pytz import timezone
+
 
 conn = fxcmpy.fxcmpy(config_file='fxcm.cfg')
 accountID = conn.get_default_account()
 conn.set_default_account(accountID)
 
+tz = timezone('EST')
+
+############ Defnitions 
+
+askm5df = pd.DataFrame()
+bidm5df = pd.DataFrame()
+
+askm5df['close'], bidm5df['close'] = np.nan, np.nan
+
+activateRSI_askm5, shortSMA_askm5, longSMA_askm5, activateGAMMA_askm5, BuyDirection_askm5 = False, False, False, False, False
+
+activateRSI_bidm5, shortSMA_bidm5, longSMA_bidm5, activateGAMMA_bidm5, SellDirection_bidm5 = False, False, False, False, False
+
+def process_askm5(dt, data):
+    global askm5df
+    askm5df.loc[len(dt.index), 'liveClose'] = data
+    askm5df['close'] = askm5df['liveClose'].rolling(window=2, min_periods=1).apply(lambda x:x.iloc[0])
+
+def process_bidm5(dt, data):
+    global bidm5df
+    bidm5df.loc[len(dt.index), 'liveClose'] = data
+    bidm5df['close'] = bidm5df['liveClose'].rolling(window=2, min_periods=1).apply(lambda x:x.iloc[0])
+
+
 def handler(data, dataframe):
-     ###### 1 Mintue Timeframe
-     ## Ask prices
-    askm1df = pd.DataFrame()
-    askm1df = dataframe['Ask'].resample('1Min').ohlc()
-    askm1df['Rsi'] = ta.rsi(askm1df['close'], length=2)
-    askm1df['RsiMA'] = ta.sma(askm1df['Rsi'], length=2)
-    askm1df['Gamma'] = askm1df['Rsi'] - askm1df['RsiMA']
-    askm1df['Gamma_Long'] = np.where(askm1df['Gamma']>0, 1, 0)
-    askm1df['Gamma_Short'] = np.where(askm1df['Gamma']<0, 1, 0)
-    askm1df['Rsi_Diff'] = askm1df['Gamma_Long'] - askm1df['Gamma_Short']
-    askm1df['Rsi_Crossover'] = askm1df['Rsi_Diff'].diff().fillna(0)
-    if len(askm1df['Rsi_Crossover']):
-        if askm1df['Rsi_Crossover'].iloc[-1] == 2:
-            print('Crossover is equal to 2')
-    askm1df['Short_SMA'] = ta.sma(askm1df['close'], length=2)
-    askm1df['Long_SMA'] = ta.sma(askm1df['close'], length=5)
-    askm1df['Bullish_SMA'] = np.where(askm1df['Long_SMA']>askm1df['Short_SMA'], 1, 0)
-    askm1df['Bearish_SMA'] = np.where(askm1df['Long_SMA']<askm1df['Short_SMA'], 1, 0)
-    askm1df['SMA_Diff'] = askm1df['Bullish_SMA'] - askm1df['Bearish_SMA']
-    askm1df['SMA_Crossover'] = askm1df['SMA_Diff'].diff().fillna(0)
-    ## Bid prices
-    bidm1df = pd.DataFrame()
-    bidm1df = dataframe['Bid'].resample('1Min').ohlc()
-    bidm1df['Rsi'] = ta.rsi(bidm1df['close'], length=2)
-    bidm1df['RsiMA'] = ta.sma(bidm1df['Rsi'], length=2)
-    bidm1df['Gamma'] = bidm1df['Rsi'] - bidm1df['RsiMA']
-    bidm1df['Gamma_Long'] = np.where(bidm1df['Gamma']>0, 1, 0)
-    bidm1df['Gamma_Short'] = np.where(bidm1df['Gamma']<0, 1,  0)
-    bidm1df['Rsi_Diff'] = bidm1df['Gamma_Long'] - bidm1df['Gamma_Short']
-    bidm1df['Rsi_Crossover'] = bidm1df['Rsi_Diff'].diff().fillna(0)
-    if len(bidm1df['Rsi_Crossover']):
-        if bidm1df['Rsi_Crossover'].iloc[-1] == -2:
-            print('Crossover is equal to -2')
-    bidm1df['Short_SMA'] = ta.sma(bidm1df['close'], length=2)
-    bidm1df['Long_SMA'] = ta.sma(bidm1df['close'], length=5)
-    bidm1df['Bullish_SMA'] = np.where(bidm1df['Long_SMA']>bidm1df['Short_SMA'], 1, 0)
-    bidm1df['Bearish_SMA'] = np.where(bidm1df['Long_SMA']<bidm1df['Short_SMA'], 1, 0)
-    bidm1df['SMA_Diff'] = bidm1df['Bullish_SMA'] - bidm1df['Bearish_SMA']
-    bidm1df['SMA_Crossover'] = bidm1df['SMA_Diff'].diff().fillna(0)
-    ## Write the output
-    m1df = pd.concat([askm1df, bidm1df], axis=1,  keys=['Ask', 'Bid'])
-    m1df.to_csv('data/m1_output.csv', index_label='Date')
     ###### 5 Mintue Timeframe
-     ## Ask prices
+    ## Ask prices
     askm5df = pd.DataFrame()
-    askm5df = dataframe['Ask'].resample('15Min').ohlc()
-    askm5df['Rsi'] = ta.rsi(askm5df['close'], length=2)
-    askm5df['RsiMA'] = ta.sma(askm5df['Rsi'], length=2)
-    askm5df['Gamma'] = askm5df['Rsi'] - askm5df['RsiMA']
-    askm5df['Gamma_Long'] = np.where(askm5df['Gamma']>0, 1, 0)
-    askm5df['Gamma_Short'] = np.where(askm5df['Gamma']<0, 1, 0)
-    askm5df['Rsi_Diff'] = askm5df['Gamma_Long'] - askm5df['Gamma_Short']
-    askm5df['Rsi_Crossover'] = askm5df['Rsi_Diff'].diff().fillna(0)
+    askm5df = dataframe['Ask'].resample('5Min').last()
+    process_askm5(askm5df, askm5df[-1])
     ## Bid prices
     bidm5df = pd.DataFrame()
-    bidm5df = dataframe['Bid'].resample('5Min').ohlc()
-    bidm5df['Rsi'] = ta.rsi(bidm5df['close'], length=2)
-    bidm5df['RsiMA'] = ta.sma(bidm5df['Rsi'], length=2)
-    bidm5df['Gamma'] = bidm5df['Rsi'] - bidm5df['RsiMA']
-    bidm5df['Gamma_Long'] = np.where(bidm5df['Gamma']>0, 1, 0)
-    bidm5df['Gamma_Short'] = np.where(bidm5df['Gamma']<0, 1,  0)
-    bidm5df['Rsi_Diff'] = bidm5df['Gamma_Long'] - bidm5df['Gamma_Short']
-    bidm5df['Rsi_Crossover'] = bidm5df['Rsi_Diff'].diff().fillna(0)
-    ## Write the output
-    m5df = pd.concat([askm5df, bidm5df], axis=1,  keys=['Ask', 'Bid'])           
-    m5df.to_csv('data/m5_output.csv', index_label='Date')
-    ####### Orders Excution
-    if len(askm1df['Rsi_Crossover']):
-        if askm1df['Rsi_Crossover'].iloc[-1] == 2:
-            print('Crossover is equal to 2 and a buy position is triggered')
-            conn.create_entry_order(symbol='BRKB.us', is_buy=True, amount=300, limit=0, is_in_pips = True, time_in_force='GTC', rate=500, stop=500, trailing_step=None, trailing_stop_step=None)
-    if len(bidm1df['Rsi_Crossover']):
-        if bidm1df['Rsi_Crossover'].iloc[-1] == -2:
-            print('Crossover is equal to -2 and a sell position is triggered')
-            conn.create_entry_order(symbol='BRKB.us', is_buy=False, amount=300, limit=0, is_in_pips = True, time_in_force='GTC', rate=500, stop=500, trailing_step=None, trailing_stop_step=None)
-    ## Write closed position
-    positiondf = pd.DataFrame()
-    positiondf = conn.get_closed_positions()
-    if len(positiondf):
-        positiondf.to_csv('data/closed_positions.csv')
+    bidm5df = dataframe['Bid'].resample('5Min').last()
+    process_bidm5(bidm5df, bidm5df[-1])
 
-conn.subscribe_market_data('SPX500', (handler,))
-time.sleep(1000)
-conn.unsubscribe_market_data('SPX500')
+def time_to_open(current_time):
+    if current_time.weekday() <= 4:
+        d = (current_time + timedelta(days=1)).date()
+    else:
+        days_to_mon = 0 - current_time.weekday() + 7
+        d = (current_time + timedelta(days=days_to_mon)).date()
+    next_day = datetime.datetime.combine(d, datetime.time(9, 30, tzinfo=tz))
+    seconds = (next_day - current_time).total_seconds()
+    return seconds
+
+while True:
+    conn.subscribe_market_data('SPX500', (handler,))
+    time.sleep(1)
+    ############## 5Min Ask Prices
+    if len(askm5df['close']) > 12:
+        askm5df['Short_SMA'] = ta.sma(askm5df['close'], length=12)
+        shortSMA_askm5 = True
+    if len(askm5df['close']) > 26:
+        askm5df['Long_SMA'] = ta.sma(askm5df['close'], length=26)
+        longSMA = True
+    if shortSMA_askm5 & longSMA_askm5:
+        askm5df['Bullish_SMA'] = np.where(askm5df['Long_SMA']>askm5df['Short_SMA'], 1, 0)
+        askm5df['Bearish_SMA'] = np.where(askm5df['Long_SMA']<askm5df['Short_SMA'], 1, 0)
+        askm5df['SMA_Diff'] = askm5df['Bullish_SMA'] - askm5df['Bearish_SMA']
+        askm5df['SMA_Crossover'] = askm5df['SMA_Diff'].diff().fillna(0)
+        BuyDirection_askm5 = True
+    askm5df.to_csv('data/askm5_results.csv', index_label='index')
+    ############## 5Min Bid Prices
+    if len(bidm5df['close']) > 12:
+        bidm5df['Short_SMA'] = ta.sma(bidm5df['close'], length=12)
+        shortSMA_bidm5 = True
+    if len(bidm5df['close']) > 26:
+        bidm5df['Long_SMA'] = ta.sma(bidm5df['close'], length=26)
+        longSMA_bidm5 = True
+    if shortSMA_bidm5 & longSMA_bidm5:
+        bidm5df['Bullish_SMA'] = np.where(bidm5df['Long_SMA']>bidm5df['Short_SMA'], 1, 0)
+        bidm5df['Bearish_SMA'] = np.where(bidm5df['Long_SMA']<bidm5df['Short_SMA'], 1, 0)
+        bidm5df['SMA_Diff'] = bidm5df['Bullish_SMA'] - bidm5df['Bearish_SMA']
+        bidm5df['SMA_Crossover'] = bidm5df['SMA_Diff'].diff().fillna(0)
+        SellDirection_bidm5 = True
+    bidm5df.to_csv('data/bidm5_results.csv', index_label='index')
+    ############### Execute Orders
+    activateTrade = False
+    activateLong = True
+    activateShort = False
+    ## Check it is a weekday Mon-Fri and market is open 9:30-3:30
+    if datetime.datetime.now(tz).weekday() >= 0 and datetime.datetime.now(tz).weekday() <= 4:
+        if datetime.datetime.now(tz).time() > datetime.time(00, 00) and datetime.datetime.now(tz).time() <= datetime.time(23, 59):
+            m5Buy = pd.read_csv('data/askm5_results.csv')
+            if BuyDirection_askm5:
+               if len(m5Buy['SMA_Crossover']):
+                   if m5Buy['SMA_Crossover'].iloc[-1] == 2:
+                      Bullish_SMA = True
+                   if m5Buy['SMA_Crossover'].iloc[-1] != 2:
+                      Bullish_SMA = False
+               if activateLong & Bullish_SMA:
+                   conn.create_entry_order(symbol='SPX500', is_buy=True, is_in_pips=True, amount='100', time_in_force='GTC' , order_type='Entry', limit=50, stop=-50)
+                   if len(conn.get_open_trade_ids()) >= 1:
+                       activateTrade = True
+                       tradeID = conn.get_open_trade_ids()[-1]
+                       print('×'*50)
+                       print('A position has been opened with trade ID:{}'.format(tradeID))
+                       print('×'*50)  
+            m5Sell = pd.read_csv('data/bidm5_results.csv')
+            if SellDirection_bidm5:
+               if len(m5Sell['SMA_Crossover']):
+                   if m5Sell['SMA_Crossover'].iloc[-1] == -2:
+                        Bearish_SMA = True
+                   if m5Sell['SMA_Crossover'].iloc[-1] != -2:
+                        Bearish_SMA = False
+               if activateShort & Bearish_SMA:
+                    conn.create_entry_order(symbol='SPX500', is_buy=False, is_in_pips=True, amount='100', time_in_force='GTC', order_type='Entry', limit=50, stop=-50)
+                    if len(conn.get_open_trade_ids()) >= 1:
+                        activateTrade = True
+                        tradeID = conn.get_open_trade_ids()[-1]
+                        print('×'*50)
+                        print('A position has been opened with trade ID:{}'.format(tradeID))
+                        print('×'*50)
+            if activateTrade:
+                if conn.get_closed_position(tradeID) == True:
+                    activateTrade = False
+                    trade = conn.get_closed_position(tradeID)
+                    loss = trade.get_grossPL()
+                    if np.sign(loss) == -1:
+                        print('='*50)
+                        print('The trade [{}] has lost {}. The session terminated. A review of price action is required'.format(tradeID, loss))
+                        print('='*50)
+                        break
+        # Get time amount until open, sleep that amount
+        else: 
+            print('Market closed ({})'.format(datetime.datetime.now(tz)))
+            print('Sleeping', round(time_to_open(datetime.datetime.now(tz))/60/60, 2), 'hours')
+            time.sleep(time_to_open(datetime.datetime.now(tz)))
+     # If not trading day, find out how much until open, sleep that amount
+    else:
+       print('Market closed ({})'.format(datetime.datetime.now(tz)))
+       print('Sleeping', round(time_to_open(datetime.datetime.now(tz))/60/60, 2), 'hours')
+       time.sleep(time_to_open(datetime.datetime.now(tz)))
